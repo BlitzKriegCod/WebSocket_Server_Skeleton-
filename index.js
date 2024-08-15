@@ -1,12 +1,7 @@
-require('dotenv').config();
-
-const Server = require('./models/server');
-
+require("dotenv").config();
+require("colors");
+const Server = require("./models/server");
 
 const server = new Server();
 
-
-
 server.listen();
-
-
